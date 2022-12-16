@@ -1,0 +1,85 @@
+.discover{
+    background: #b8b1b1;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    
+}
+
+.discover h1{
+    text-align: center;
+    padding-top: 80px;
+    font-size: 40px;
+    color: #fff;
+}
+.slide-container{
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slide-row{
+  
+   display: flex;
+   width: 4000px;
+}
+
+.slide-col{
+    width: 950px;
+    height: 550px;
+    position: relative;
+}
+.slide-image{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+
+}
+
+.slide-image img{
+    height: 100%;
+}
+
+
+.slide-text{
+    background: #2d3a59;
+    width: 520px;
+    height: 270px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 10px;
+    color: #d3d4d6;
+    padding: 45px;
+    margin: 0;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.slide-text p{
+    font-size: 18px;
+    line-height: 24px;
+}
+.slide-text h3{
+    margin: 35px 0 5px;
+}
+.app{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.play-app{
+ width: 170px;
+}
+
+.apple-app{
+    margin: 0;
+    height: 150px;
+    width: 300px;
+}
